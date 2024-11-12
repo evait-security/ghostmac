@@ -72,8 +72,8 @@ sudo env "PATH=$PATH" ghostmac --interface eth0 --counter 10
 1. Testing Network Security:
 - GhostMAC can be used to test the resilience of your DHCP server by generating numerous requests with random MAC addresses to see how it handles unknown devices. This can simulate a real-world attack scenario where an attacker attempts to exhaust the available DHCP leases.
 
-2. Bypassing NAC Systems:
-- Network Access Control (NAC) systems may rely on filtering based on known MAC addresses. GhostMAC can generate new random MAC addresses to determine whether unauthorized devices can bypass such filters and gain network access.
+2. Bypassing DHCP filters:
+- DHCP servers may rely on filtering based on known MAC addresses. GhostMAC can generate new random MAC addresses to determine whether unauthorized devices can bypass such filters and gain network access.
 
 ## Requirements
 Python 3.6+.
