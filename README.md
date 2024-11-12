@@ -1,6 +1,6 @@
 # GhostMAC
 
-**GhostMAC** is a powerful Python-based tool designed to perform DHCP brute force attacks by sending multiple DISCOVER packets with randomly generated MAC addresses. It enables network penetration testers to assess the resilience of DHCP servers, particularly those implementing MAC address filtering or Network Access Control (NAC).
+**GhostMAC** is a very simple but powerful Python-based tool designed to perform DHCP brute force attacks by sending multiple DISCOVER packets with randomly generated MAC addresses. It enables network penetration testers to assess the resilience of DHCP servers, particularly those implementing MAC address filtering or Network Access Control (NAC).
 
 GhostMAC generates random MAC addresses and sends DHCP DISCOVER packets to the network. It then waits for DHCP OFFER packets and prints the IP addresses offered by the DHCP server. This tool can be especially useful for testing network defenses, spoofing MAC addresses to bypass filtering, and checking how a DHCP server handles numerous unknown requests.
 
