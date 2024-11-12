@@ -24,7 +24,7 @@ def generate_random_mac(prefix=''):
 
 def capture(packet):
     """Funktion zum Verarbeiten von Paketen"""
-    print('Allowed: {0} = {1}'.format(str2mac(packet['BOOTP'].chaddr[:6]), packet['BOOTP'].yiaddr))
+    print('[+] Valid MAC-Address found: {0} = {1}'.format(str2mac(packet['BOOTP'].chaddr[:6]), packet['BOOTP'].yiaddr))
 
 def main():
     # Argumente parsen
