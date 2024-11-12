@@ -94,3 +94,6 @@ GhostMAC is licensed under the MIT License. See the LICENSE file for more detail
 
 ## Disclaimer
 Use this tool responsibly and only on networks for which you have explicit permission to test. Unauthorized use is illegal and unethical.
+
+## Special Thanks
+@FrankSpierings (https://github.com/FrankSpierings) for the mac-bruteforce.py script (https://gist.github.com/FrankSpierings/a263b3097f87c3a2c3c9a7d121535253) as a base for this project
