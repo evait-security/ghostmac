@@ -15,10 +15,10 @@ GhostMAC generates random MAC addresses and sends DHCP DISCOVER packets to the n
 
 ## Installation
 
-Install using `pipx`:
+Install using `uv`:
 
 ```sh
-pipx install git+https://github.com/evait-security/ghostmac.git
+uv tool install git+https://github.com/evait-security/ghostmac.git
 ```
 
 GhostMAC requires root privileges to send and receive raw packets. You can use the env command to pass your user's PATH variable to sudo, allowing the installed ghostmac executable to be found.
